@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'codenjoy-ruby-client'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2013-11-21'
   s.summary     = "Simple ruby codenjoy client."
   s.description = "Simple ruby codenjoy client."
