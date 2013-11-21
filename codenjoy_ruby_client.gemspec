@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/codenjoy_ruby_client.rb"]
   s.homepage    = 'https://github.com/FUT/codenjoy_ruby_client'
   s.license     = 'MIT'
+  s.add_dependency 'rack'
 end
