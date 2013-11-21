@@ -10,7 +10,7 @@ Simple codenjoy ruby client.
     require 'codenjoy_ruby_client'
 
     ## CRClient is the alias for CodenjoyRubyClient
-    CRClient.run |query|
+    CRClient.run do |query|
       p "We have #{query}"
 
       'left=0, right=0, rotate=0, drop' # Here is our response to the server
